@@ -1,0 +1,11 @@
+targets:
+  - {
+    type: namespace
+    targetNamespace: alerting
+    patchPrioriyClass: telemetry-n-storage
+  }
+  - {
+    type: namespace
+    targetNamespace: gitlab-runner
+    patchPrioriyClass: ci-services
+  }
